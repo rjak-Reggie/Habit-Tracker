@@ -17,13 +17,8 @@ Remove habits cleanly from the tracker.
 * View Habits
 Display all habits with their name, periodicity, and current streak.
 
-* Analytics
+* Analytics: Filter habits by periodicity (daily or weekly), identify the habit with the longest streak, and view the current streak for a specific habit.
 
-Filter habits by periodicity (daily or weekly)
-
-Identify the habit with the longest streak
-
-View the current streak for a specific habit
 
 Technologies Used
 
