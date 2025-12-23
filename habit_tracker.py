@@ -166,7 +166,7 @@ class HabitTracker:
         base = datetime.now() - timedelta(days=35)
 
 
-        # Fixed: Weekly habits should have ONE completion per week, not daily
+        # Weekly habits should have ONE completion per week, not daily
         def gen_daily(weeks):
             return [base + timedelta(days=i) for i in range(weeks * 7)]
 
@@ -233,4 +233,5 @@ def analytics(tracker):
 
 
 if __name__ == "__main__":
+
     main()
